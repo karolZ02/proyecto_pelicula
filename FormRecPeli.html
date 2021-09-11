@@ -11,10 +11,48 @@
             <a href="http://127.0.0.1:5501/FormRecPeli.html">
             <img src="https://www.pnguniverse.com/wp-content/uploads/2021/04/Logo-aves-2.png" alt="logo" 
             width="15%" height="15%">
-        </a>
-        <h1>Filmy</h1>
-        
+            </a>
+            <h1>Filmy</h1>  
+            <img src="https://images.vexels.com/media/users/3/137047/isolated/lists/5831a17a290077c646a48c4db78a81bb-icono-de-perfil-de-usuario-azul.png" alt="usuario"
+            width="5%" height="5%">
     </header>
+
+    <nav class="menu">
+
+        <ul>
+            <li><a href="">Peliculas</a></li>
+            <li><a href="">Series</a></li>
+            <li><a href="">Anime</a></li>
+            <label for="buscar">Buscar</label>
+            <input type="search" name="buscar"><br/>
+        </ul>
+
+    </nav>
+
+    <main>
+        <center>
+        <form action="RecPeliculas" class="FormPel">
+            <label for="txtNombre">Nombre</label>
+            <input type="text" name="txtNombre"><br/>
+            <label for="txtApellido">Apellido</label>
+            <input type="text" name="txtApellido"><br/>
+            <label for="emailCorreo">Correo Electronico</label>
+            <input type="email" name="emailCorreo"><br/>
+            <label for="txtNombrePel">Nombre de la Pelicula</label>
+            <input type="text" name="txtNombrePel"><br/>
+            <label for="SelGenero">Genero</label>
+            <select name="SelGenero" id="Genero">
+                <option value="1">Accion</option>
+                <option value="2">Aventura</option>
+                <option value="3">Infantiles</option>
+                <option value="4">Terror</option>
+                <option value="5">Comedia</option>
+                <option value="6">Drama</option>
+                <option value="7">Otro</option>
+            </select>
+        </form>
+        </center>
+    </main>
     
 </body>
 </html>
