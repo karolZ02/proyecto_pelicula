@@ -1,0 +1,44 @@
+body{
+    background-color: #051a29;
+    
+}
+
+
+.titulo{
+    display: inline-block;
+    position: absolute;
+    
+    
+   
+   
+    
+}
+
+.nombre{
+
+    font-style: italic;
+    color: yellow;
+    display: flex;
+    font-size: 250%;
+    
+    
+}
+
+.usuario{
+    padding: 0% 0% 3% 82%;
+    
+    
+}
+
+.Inicio{
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
